@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Objects_and_classes_in_C_.Animals;
+using Objects_and_classes_in_C_.Calc;
 namespace Objects_and_classes_in_C_
 {
    
@@ -19,6 +20,8 @@ namespace Objects_and_classes_in_C_
             cow.sound = "Moooh";
 
             cow.makeSound();
+            int result = Calculator.Add(10, 20);
+            Console.WriteLine(result);
 
             Console.ReadLine();
         }
